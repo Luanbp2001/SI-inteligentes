@@ -1,5 +1,5 @@
 import Footer from "./assets/Footer"
-import Middle from "./assets/Middle"
+import Middle from "./Middle.jsx"
 import NavBar from "./assets/NavBar"
 
 
