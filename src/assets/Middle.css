@@ -30,13 +30,9 @@ ol > h2{
 .image{
     display: flex;
     justify-content: center;
+    background-image: url('./src/img/image-1.jpeg');
 }
-.image > img{
-    max-width: 80%;
-    width: 80%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+
 .middle_right{
     width: 30%;
 }
