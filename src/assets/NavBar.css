@@ -1,0 +1,45 @@
+.header{
+    background-color: rgb(23, 109, 159);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem
+}
+.logo h1{
+    color: white;
+    font-size: 3rem;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: .5rem;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 3rem 1rem;
+    font-size: 1.6rem;
+}
+.list a:hover{
+    background:rgb(235, 241, 244);
+    color: rgb(23, 109, 159);
+    transition: .3s ease;
+}
+.menu{
+    color: white;
+    font-size: 3.5rem;
+    display: none;
+    margin-right: 2rem;
+}
+@media (max-width: 760px){
+    .header{
+        padding: 1rem 1.2rem;
+    }
+    .nav_list{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+}
