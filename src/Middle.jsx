@@ -29,8 +29,9 @@ function Middle (){
                     Por serem sofisticados, esses sistemas são alimentados por (IA), e também contam com aprendizado de máquinas.
                     À medida que a inteligência artificial e a aprendizagem automática continuam a avançar a passos largos, compreender estes sistemas é crucial para aproveitar ao máximo as oportunidades que oferecem e enfrentar os desafios que apresentam no século XXI.
                     </p>
-                    <div className="image">
-                        <img src="../src/img/image-1.jpeg" alt="" />
+                    <div>
+                        <section id='image'>
+                        </section>
                     </div>
                     <ol>
                         <h2>
@@ -70,8 +71,7 @@ function Middle (){
                         Além disso, estão sendo desenvolvidas aplicações que utilizam algoritmos de aprendizado de máquina para prever doenças e melhorar a eficiência dos tratamentos.
                         </p>
                     <div className="image_content">
-                        <div className='image'>
-                            <img src="../src/img/image-2.jpg" alt="" />
+                        <div id='image'>
                         </div>
                     </div>
                     <h2>

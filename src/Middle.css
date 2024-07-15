@@ -28,10 +28,19 @@ ol > h2{
     margin-bottom: 2rem;
 }
 .image_content{
-    justify-content: center;
+    height: 40rem;
+    width: 100%;
+    margin-bottom: 2rem;
 }
-aside{
-    background-image: url('./img/image-1.jpeg');
+#image{
+    height: 100%;
+    max-width: 700px;
+    width: 100%;
+    background-image: url('../src/img/image-2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2rem auto
 }
 .middle_right{
     width: 30%;
