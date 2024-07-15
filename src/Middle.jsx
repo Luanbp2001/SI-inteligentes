@@ -29,9 +29,8 @@ function Middle (){
                     Por serem sofisticados, esses sistemas são alimentados por (IA), e também contam com aprendizado de máquinas.
                     À medida que a inteligência artificial e a aprendizagem automática continuam a avançar a passos largos, compreender estes sistemas é crucial para aproveitar ao máximo as oportunidades que oferecem e enfrentar os desafios que apresentam no século XXI.
                     </p>
-                    <div>
-                        <section id='image'>
-                        </section>
+                    <div className="image_content">
+                        <div id="image_2"></div>
                     </div>
                     <ol>
                         <h2>
