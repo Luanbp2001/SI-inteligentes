@@ -106,14 +106,23 @@ function Middle (){
                             Exemplos de sistemas de informação inteligentes
                             </li>
                         </h2>
-                        <p className="paragraph">
-                        A implementação de sistemas inteligentes numa organização pode proporcionar inúmeras vantagens, mas também pode apresentar desafios a considerar. 
-                        Uma das principais vantagens é a capacidade de automatizar tarefas repetitivas e melhorar a eficiência operacional.
-                        </p>
-                        <p className="paragraph">
-                        No entanto, a implementação de sistemas inteligentes também enfrenta desafios significativos. 
-                        Uma delas é a coleta e gestão de dados relevantes. Estes sistemas requerem grandes volumes de dados para gerar resultados precisos, por isso é importante ter uma estratégia sólida para coletar, armazenar e proteger os dados. 
-                        </p>
+                        <div className="exemplos">
+                            <div className="exemplo">
+                            <p>1. Medicina personalizada</p>
+                            <div className="espaco_medicina">
+                            </div>
+                            </div>
+                            <div className="exemplo">
+                            <p>2. Inspeção visual de equipamentos</p>
+                            <div className="espaco_equipamento">
+                            </div>
+                            </div>
+                            <div className="exemplo">
+                            <p>3. Carros autônomos</p>
+                            <div className="espaco_carro">
+                            </div>
+                            </div>
+                        </div>
                     </ol>
                     </div>
 

@@ -15,10 +15,6 @@ h3{
 ol > h2{
     margin-left: 2rem;
 }
-
-.texts{
-    border-bottom: 4px solid rgb(23, 109, 159);
-}
 .middle_left{
     width: 80%;
     margin-left: 5rem;
@@ -60,6 +56,46 @@ ol > h2{
     margin-bottom: 1rem;
     font-size: 1.7rem;
     text-align: justify;
+}
+.exemplos{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    gap: 1rem
+}
+.exemplo >p{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+.exemplo{
+    flex: 30%;
+}
+
+.espaco_medicina{
+    background-image: url('../src/img/medicina.png');
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.espaco_equipamento{
+    background-image: url('./img/pessoas.jpg');
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.espaco_carro{
+    background-image: url('../src/img/veiculo.jpg');
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
 }
 p{
     font-size: 1.2rem;
@@ -103,7 +139,8 @@ p{
     margin-top: 1rem;
 }
 .bottom{
-    margin-top: 3rem;
+    border-top: 4px solid rgb(23, 109, 159);
+    margin-top: 4rem;
     border-bottom: 4px solid rgb(23, 109, 159);
     margin-bottom: 2rem;
 }
@@ -176,6 +213,11 @@ button{
 }
 .show{
     display: block;
+}
+@media (max-width: 1340px){
+    .exemplos{
+        flex-direction: column;
+    }
 }
 @media(max-width: 926px){
     .middle_right{
