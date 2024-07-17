@@ -114,6 +114,9 @@ p{
     padding: 1rem;
     gap: 1rem;
 }
+a{
+    color: rgb(23, 109, 159);
+}
 .card_topicos > ol{
     margin-left: 1.5rem;
 }

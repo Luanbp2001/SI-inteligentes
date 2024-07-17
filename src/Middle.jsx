@@ -23,7 +23,7 @@ function Middle (){
             <div className="container_text">
                 <section className="middle_left">
                     <div className="texts">
-                    <h2>O que são Sistemas de Informação Inteligentes?</h2>
+                    <h2 id='text1'>O que são Sistemas de Informação Inteligentes?</h2>
                     <p className="paragraph">
                     Os sistemas de informação Inteligentes, tornaram-se essenciais em nossa vida contidiana. 
                     Por serem sofisticados, esses sistemas são alimentados por (IA), e também contam com aprendizado de máquinas.
@@ -34,7 +34,7 @@ function Middle (){
                     </div>
                     <ol>
                         <h2>
-                            <li>
+                            <li id='text2'>
                             Introdução aos sistemas Inteligentes:
                             Definições e conceitos fundamentais
                             </li>
@@ -49,7 +49,7 @@ function Middle (){
                         </p>
                         </p>
                         <h2>
-                            <li>
+                            <li id='text3'>
                             Principais características dos sistemas inteligentes:
                             Adaptabilidade e aprendizado de máquina
                             </li>
@@ -60,7 +60,7 @@ function Middle (){
                         Esta adaptabilidade pode ser especialmente útil em aplicações em tempo real, onde as condições podem mudar rapidamente.
                         </p>
                         <h2>
-                            <li>
+                            <li id='text4'>
                             Aplicações de sistemas inteligentes em diferentes indústrias
                             </li>
                         </h2>
@@ -74,7 +74,7 @@ function Middle (){
                         </div>
                     </div>
                     <h2>
-                            <li>
+                            <li id='text5'>
                             Principais componentes de um sistema inteligente
                             </li>
                         </h2>
@@ -89,7 +89,7 @@ function Middle (){
                             </ol>
                         </p>
                         <h2>
-                            <li>
+                            <li id='text6'>
                             As vantagens e desafios da implementação de sistemas inteligentes
                             </li>
                         </h2>
@@ -102,23 +102,23 @@ function Middle (){
                         Uma delas é a coleta e gestão de dados relevantes. Estes sistemas requerem grandes volumes de dados para gerar resultados precisos, por isso é importante ter uma estratégia sólida para coletar, armazenar e proteger os dados. 
                         </p>
                         <h2>
-                            <li>
+                            <li id='text7'>
                             Exemplos de sistemas de informação inteligentes
                             </li>
                         </h2>
                         <div className="exemplos">
                             <div className="exemplo">
-                            <p>1. Medicina personalizada</p>
+                            <p>Medicina personalizada</p>
                             <div className="espaco_medicina">
                             </div>
                             </div>
                             <div className="exemplo">
-                            <p>2. Inspeção visual de equipamentos</p>
+                            <p>Inspeção visual de equipamentos</p>
                             <div className="espaco_equipamento">
                             </div>
                             </div>
                             <div className="exemplo">
-                            <p>3. Carros autônomos</p>
+                            <p>Carros autônomos</p>
                             <div className="espaco_carro">
                             </div>
                             </div>
@@ -127,7 +127,7 @@ function Middle (){
                     </div>
 
                     <div className="bottom">
-                        <div className="referencias">
+                        <div className="referencias" id='referencias'>
                             <p>
                                 <b>REFERÊNCIAS</b>
                             </p>
@@ -136,7 +136,7 @@ function Middle (){
                             </p>
                         </div>
                     </div>
-                    <div className="perguntas">
+                    <div className="perguntas" id='perguntas'>
                         <p>
                             <b>PERGUNTAS</b>
                         </p>
@@ -225,30 +225,30 @@ function Middle (){
                 </section>
                 <section className="middle_right">
                     <div className="card_topicos">
-                        <h3>Tópicos</h3>
-                        <p>O que são sistemas de informação Inteligentes</p>
+                        <h3 id='topicos'>Tópicos</h3>
+                        <a href="#text1"><p>O que são sistemas de informação Inteligentes</p></a>
                         <ol>
-                            <li><a href=""><p>
+                            <li><a href="#text2"><p>
                                 Introdução aos sistemas Inteligentes: Definições e conceitos fundamentais
                                 </p></a>
                             </li>
-                            <li><a href=""><p>
+                            <li><a href="#text3"><p>
                                 Principais características dos sistemas inteligentes: Adaptabilidade e aprendizado de máquina
                                 </p></a>
                             </li>
-                            <li><a href=""><p>
+                            <li><a href="#text4"><p>
                                 Aplicações de sistemas inteligentes em diferentes indústrias
                                 </p></a>
                             </li>
-                            <li><a href=""><p>
+                            <li><a href="#text5"><p>
                                 Principais componentes de um sistema inteligente
                                 </p></a>
                             </li>
-                            <li><a href=""><p>
+                            <li><a href="#text6"><p>
                                 As vantagens e desafios da implementação de sistemas inteligentes
                                 </p></a>
                             </li>
-                            <li><a href=""><p>
+                            <li><a href="#text7"><p>
                                 Exemplos de sistemas de informação inteligentes
                                 </p></a>
                             </li>
