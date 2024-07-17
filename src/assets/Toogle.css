@@ -1,0 +1,22 @@
+.menu_mobile{
+    background-color: rgb(23, 109, 159);
+    height: 50px;
+    width: 100%;
+}
+.menu_mobile >ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap:2rem
+}
+
+.menu_mobile> ul > li > a{
+    background-color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: rgb(23, 109, 159);
+    display: flex;
+    border-radius: 1rem;
+}
