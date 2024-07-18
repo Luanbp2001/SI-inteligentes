@@ -134,6 +134,9 @@ function Middle (){
                             <p>
                                 REZENDE, S. <b>Sistemas inteligentes: </b>Fundamentos e aplicações. Barueri - SP: Monole, 2005.
                             </p>
+                            <p>
+                            IAN, G. <b>Deep learning </b>. Estados Unidos : The Mit Press , 2016.
+                            </p>
                         </div>
                     </div>
                     <div className="perguntas" id='perguntas'>
